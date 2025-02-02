@@ -26,7 +26,7 @@ client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
 def send_good_night():
     message = client.messages.create(
-        body="Good night!",
+        body="Erez says: Good night❤️!",
         from_=TWILIO_WHATSAPP_NUMBER,
         to=RECIPIENT_NUMBER
     )
